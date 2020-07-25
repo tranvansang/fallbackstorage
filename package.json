@@ -1,6 +1,6 @@
 {
   "name": "fallbackstorage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A fallback chain of localStorage/sesisonStorage/memoryStorage",
   "main": "index.js",
   "files": [
