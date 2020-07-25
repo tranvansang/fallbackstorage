@@ -1,4 +1,4 @@
-# Safe Storage [![Build Status](https://travis-ci.org/tranvansang/fallbackstorage.svg?branch=master)](https://travis-ci.org/tranvansang/fallbackstorage)
+# Fallback Storage [![Build Status](https://travis-ci.org/tranvansang/fallbackstorage.svg?branch=master)](https://travis-ci.org/tranvansang/fallbackstorage)
 [![NPM](https://nodei.co/npm/fallbackstorage.png)](https://nodei.co/npm/fallbackstorage/)
 
 A fallback chain for localStorage/sessionStorage/memoryStorage.
