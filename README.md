@@ -1,12 +1,12 @@
-# Safe Storage [![Build Status](https://travis-ci.org/tranvansang/safestorage.svg?branch=master)](https://travis-ci.org/tranvansang/safestorage)
-[![NPM](https://nodei.co/npm/safestorage.png)](https://nodei.co/npm/safestorage/)
+# Safe Storage [![Build Status](https://travis-ci.org/tranvansang/fallbackstorage.svg?branch=master)](https://travis-ci.org/tranvansang/fallbackstorage)
+[![NPM](https://nodei.co/npm/fallbackstorage.png)](https://nodei.co/npm/fallbackstorage/)
 
 A fallback chain for localStorage/sessionStorage/memoryStorage.
 
 ## Usage
 
 ```javascript
-import {getSafeStorage} from 'safestorage'
+import {getSafeStorage} from 'fallbackstorage'
 ```
 
 `getSafeStorage` check for availability and returns `window.localStorage`, or `window.sessionStorage` if they are available.
