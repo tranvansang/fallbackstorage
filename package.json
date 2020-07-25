@@ -1,0 +1,22 @@
+{
+  "name": "safestorage",
+  "version": "0.0.1",
+  "description": "A fallback chain of localstorage/sesisonstorage/memorystorage",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "yarn tsc -t es5 --declaration index.ts",
+    "test": "yarn build && yarn jest --coverage"
+  },
+  "repository": "https://github.com/tranvansang/safestorage",
+  "author": "Tran Sang",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "typescript": "^3.9.7"
+  }
+}
